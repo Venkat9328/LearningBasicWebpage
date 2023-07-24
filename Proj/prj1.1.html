@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css1.css">
+    <title>My Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+         <!-- Form Creation -->
+         <div class="column">
+            <h2>Sign Up</h2>
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label>Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="India">India</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+
+                <label for="interests">Interests:</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="Web desing">Web design</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h2>Hi! welcome to my Site</h2>
+            <p>In this website we can learn simple online basic website</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+            </ul>
+            <dl>
+                <dt><h2>HTML</h2></dt>
+                <dd>HTML stands for Hyper Text Markup Language
+                    HTML is the standard markup language for creating Web pages
+                    HTML describes the structure of a Web page
+                    HTML consists of a series of elements
+                    HTML elements tell the browser how to display the content
+                    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+                    </dd>
+            </dl>
+        </div>
+
+        <div class="column">
+            <dl>
+                <dt><h2>CSS</h2></dt>
+            <dd>CSS stands for Cascading Style Sheets
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                External stylesheets are stored in CSS files
+                </dd></dl>
+                <dl>
+                    <dt><h2>JavaScript</h2></dt>
+                    <dd>avaScript is a lightweight, cross-platform, single-threaded, and interpreted <br>
+                        compiled programming language which is also known as the scripting language for <br>
+                        webpages. It is well-known for the development of web pages, and many non-browser <br>
+                        environments also use it. JavaScript is a weakly typed language(dynamically typed). <br>
+                        JavaScript can be used for Client-side developments as well as Server-side developments.<br> 
+                        JavaScript is both an imperative and declarative type of language. JavaScript contains a <br>
+                        standard library of objects, like Array, Date, and Math, and a core set of language elements <br>
+                        like operators, control structures, and statements. </dd>
+                </dl>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact information: help@gmail.com</p>
+    </footer>
+</body>
+</html>
